@@ -1,0 +1,25 @@
+**/__pycache__/
+*.egg-info
+*.log
+
+# Execution directories
+multirun/
+outputs/
+results/
+work-dir/
+logs/
+
+# Model & Data
+pretrained/
+pretrained_models/
+data/
+*.pth
+*.pt
+
+# Wandb
+wandb/
+
+# IDE & Notebooks
+.vscode/
+.idea/
+*.ipynb

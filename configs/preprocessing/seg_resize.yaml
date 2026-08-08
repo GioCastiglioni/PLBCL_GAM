@@ -1,0 +1,23 @@
+train:
+    _target_: plbcl_gam.engine.data_preprocessor.Preprocessor
+    preprocessor_cfg:
+        - _target_: plbcl_gam.engine.data_preprocessor.ResizeToEncoder
+        - _target_: plbcl_gam.engine.data_preprocessor.BandFilter
+        - _target_: plbcl_gam.engine.data_preprocessor.NormalizeMeanStd
+        - _target_: plbcl_gam.engine.data_preprocessor.BandPadding
+
+val:
+    _target_: plbcl_gam.engine.data_preprocessor.Preprocessor
+    preprocessor_cfg:
+        - _target_: plbcl_gam.engine.data_preprocessor.ResizeToEncoder
+        - _target_: plbcl_gam.engine.data_preprocessor.BandFilter
+        - _target_: plbcl_gam.engine.data_preprocessor.NormalizeMeanStd
+        - _target_: plbcl_gam.engine.data_preprocessor.BandPadding
+
+test:
+    _target_: plbcl_gam.engine.data_preprocessor.Preprocessor
+    preprocessor_cfg:
+        - _target_: plbcl_gam.engine.data_preprocessor.ResizeToEncoder
+        - _target_: plbcl_gam.engine.data_preprocessor.BandFilter
+        - _target_: plbcl_gam.engine.data_preprocessor.NormalizeMeanStd
+        - _target_: plbcl_gam.engine.data_preprocessor.BandPadding
