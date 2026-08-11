@@ -20,3 +20,6 @@ This repository contains the source code for experiments regarding **Balanced Co
 - **Pixel-Level Balanced Contrastive Learning (PL-BCL)**
 - **Focal Loss**
 - **Cross Entropy Loss**
+
+### Acknowledgments
+The original main code and hydra implementation was extracted from [PANGAEA Benchmark Repository](https://github.com/VMarsocci/pangaea-bench).
