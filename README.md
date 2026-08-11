@@ -1,6 +1,6 @@
 # PLBCL_GAM
 
-**Pixel Level Balanced Contrastive Learning & Graph Attention in the Latent Space**
+**Revisiting Semantic Segmentation in Earth Observation: Pixel-Level Balanced Contrastive Learning with Graph Attention**
 
 This repository contains the source code for experiments regarding **Balanced Contrastive Learning (BCL)** applied at the pixel level, and **Graph Attention** processing in the latent space for downstream Earth Observation (EO) segmentation tasks.
 
